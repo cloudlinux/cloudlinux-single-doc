@@ -880,3 +880,66 @@ All of the examples below are correct:
 You can use any of them with a prefix `www.` and it is also correct.
 
 
+## WP Optimization suite
+
+:::tip Note
+In the current beta release the Object Cache Module is available for WordPress optimization.
+Administrators have the CloudLinux Manager -> WP Optimization Suite tab to manage modules that will be available for enabling on websites.
+:::
+
+### Requirements
+
+* CloudLinux Solo edition (8)
+* cPanel
+* WordPress version 3.7 and higher
+* Ea-PHP version 7.4 and 8.0
+* PHP handlers: php-fpm
+
+### Installation
+
+Starting from `lve-utils-6.1.0-1` and `lvemanager-7.5.0-1`, WP Optimization Suit is available for CloudLinux OS Solo.
+
+To install, run the following command:
+
+```
+yum install lvemanager lve-utils --enablerepo=cloudlinux-updates-testing
+```
+ 
+To update, run the following command:
+
+```
+yum update lvemanager lve-utils --enablerepo=cloudlinux-updates-testing
+```
+
+
+### Administrator interface
+
+Go to _CloudLinux Manager -> WP Optimization Suite_.
+
+![](/images/WPOptimizatioSuiteAdminInterface.png)
+
+The _Allow_ option will make all necessary changes to configuration so the end-user can start working with the WP Optimization suite successfully.
+
+:::warning Attention!
+End-users should enable the module in their interface for the particular domain.
+:::
+
+The _Deny_ option (means "suspend feature usage") will make all necessary changes to configuration so  all enabled WP caching plugins will be turned off.
+
+:::warning Attention!
+All users custom configurations will be saved, so they can be used in case the admin allows working with the module.
+:::
+
+#### Where the WP Optimization Suite log files are located
+
+The the WP Optimization Suite log files are located in the following directories:
+
+* `/var/log/clwpos/main.log`
+* `/var/log/clwpos/daemon.log`
+
+### WP Optimization Suite for End-Users
+
+Please find the WP Optimization Suite End-User documentation [here](https://user-docs.solo.cloudlinux.com/wpos-plugin).
+
+
+

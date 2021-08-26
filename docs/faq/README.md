@@ -90,3 +90,37 @@ Create a new server by [converting an existing server](/installation/#converting
 :::tip
 We are collecting feedback about CloudLinux OS Solo to CloudLinux OS Shared transitions and may consider implementing that automatically in the future.
 :::
+
+### Where can I use the WP Optimization Suite?
+
+In the current beta release only on CloudLinux OS Solo and cPanel. In the next releases it will be available for CloudLinux OS Shared PRO.
+
+### How will it help my customers?
+
+In the current beta version, the WP Optimization Suite automatically configures the Object Cache module per site. In the next releases we will add modules to help automatically increase performance for WordPress sites.
+
+### How to set up PHP-fpm handler for the domain?
+
+Since the PHP-fpm handler is required to use WP Optimization Suite, you may need to configure it manually.
+
+These are configuration steps:
+
+1. Ensure the PHP-fpm package for the current PHP version is installed or install it.
+
+    * **Manual installation**
+    
+    Run the following command:
+    ```
+    yum -y install ea-phpXY-php-fpm
+    ```
+    Where `XY` - is required PHP version, for instance `ea-php74-php-fpm`
+
+    * **Via MultiPHP Manager**
+
+    ![](/images/InstallationViaMultiPHPManager.png)
+
+
+2. Enable PHP-fpm handler for domain via MultiPHP Manager
+
+![](/images/EnablePHPFpm.png)
+
