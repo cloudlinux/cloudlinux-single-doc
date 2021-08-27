@@ -894,7 +894,7 @@ Administrators have the CloudLinux Manager -> WP Optimization Suite tab to manag
 * WordPress version 3.7 and higher
 * Ea-PHP version 7.4 and 8.0
 * PHP handlers: php-fpm
-* Apache Web Server (Litespeed is not suppurted yet, is coming soon)
+* Apache Web Server (LiteSpeed is not suppurted yet, coming soon)
 
 ### Installation
 
