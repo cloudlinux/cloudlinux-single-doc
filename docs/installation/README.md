@@ -256,6 +256,11 @@ Here's what the cldeploy script does when you run it:
 
 Reboot your system, login and check EULA which is located in the `/usr/share/cloudlinux-release/EULA`.
 
+:::tip Note
+ISO installation provisions server with outdated packages. 
+It is highly recommended to run `yum update` right after first boot.
+:::
+
 ## Uninstalling
 
 You can always uninstall CloudLinux OS Solo. In this case, the system will be converted back to CentOS or
