@@ -280,6 +280,7 @@ SSA sends email reports daily if the "**Enable summary notifications**" setting 
 * [How to manage X-Ray](/manager/#how-to-manage-x-ray)
 * [Managing tracing task](/manager/#managing-tracing-task)
 * [Managing continuous tasks](/manager/#managing-continuous-tasks)
+* [X-Ray Autotracing](/manager/#x-ray-autotracing)
 * [End-user X-Ray plugin](/manager/#end-user-x-ray-plugin)
 * [X-Ray client](/manager/#x-ray-client)
 * [X-Ray service](/manager/#x-ray-agent)
@@ -532,6 +533,108 @@ To delete the continuous tracing task completely, see [Creating a new continuous
 4. You can also view the detailed information about request:
 
     ![](/images/XRayContinuousTaskDaylyReportRequestDetails.png)
+
+
+### X-Ray Autotracing
+
+X-Ray Autotracing automatically creates tracing tasks for slow URLs that were found during a day by the [PHP Slow Site Analyzer](/lve_manager/#website-monitoring-tool-and-slow-site-analyzer) (SSA).
+
+:::warning Warning
+To use X-Ray Autotracing, update your alt-php-ssa and alt-php-xray packages to versions alt-php-ssa-0.2-1 and alt-php-xray-0.4-1 or higher by running the following command:
+```
+# yum update alt-php-ssa alt-php-xray --enablerepo=cloudlinux-updates-testing
+```
+:::
+
+#### How to enable X-Ray Autotracing
+
+To enable X-Ray Autotracing, run the following commands via SSH:
+
+```
+# /usr/sbin/cloudlinux-ssa-manager enable-ssa
+# /usr/sbin/cloudlinux-xray-autotracing enable --all
+```
+
+Check [CLI documentation](/manager/#x-ray-autotracing-cli) for a description of the `/usr/sbin/cloudlinux-xray-autotracing` CLI utility.
+
+#### Requirements
+
+* CloudLinux OS Shared Pro or CloudLinux OS Solo
+* alt-php-ssa > 0.2-1 version
+* alt-php-xray > 0.4-1 version
+* Enabled PHP SSA on the server
+
+#### Autotracing Interface
+
+A new tab for Autotracing tasks was added to the X-Ray UI:
+
+
+![](/images/XRayAutotracingtaskstab.png)
+
+
+#### Autotracing FAQ
+
+Q: Why are the slow URLs in the Slow Site Analyzer report different from those on which the autotracing tasks were created?
+
+A: Because the autotracing decision module uses rules and thresholds different from Slow Site Analyzer, which are configured by the CloudLinux team.
+
+Q: How often autotracing tasks will be generated?
+
+A: Once a day at the same time as a Slow Site Analyzer report.
+
+
+#### X-Ray Autotracing CLI
+
+
+The `cloudlinux-xray-autotracing` utility allows to manage the X-Ray Autotracing via CLI.
+
+**Usage**
+
+```
+# /usr/sbin/cloudlinux-xray-autotracing [command] [--optional arguments]
+```
+
+**Commands**:
+
+| | |
+|-|-|
+|`enable`|Enable X-Ray Autotracing|
+|`disable`|Disable X-Ray Autotracing|
+|`status`|Get current status of the X-Ray Autotracing|
+
+**Optional arguments**:
+
+| | |
+|-|-|
+|`-h`, `--help`|Show help message and exit|
+|`--all`|Enable or disable for all users|
+|`{username}`|Enable/disable the specified user|
+|`--list-disabled`|Show list of disabled users|
+
+You can use the `-h`, `--help` option with commands to get a full list of available optional arguments for each command.
+
+**Example usage:**
+
+Disable user1:
+	
+```
+# /usr/sbin/cloudlinux-xray-autotracing disable user1
+{"result": "success"}
+```
+
+Show list of disabled users:
+	
+```
+# /usr/sbin/cloudlinux-xray-autotracing status --list-disabled
+{"result": "success", "disabled_users": ["user1"]}
+```
+	
+Enable all:
+
+```
+# /usr/sbin/cloudlinux-xray-autotracing enable --all
+{"result": "success"}
+```
 
 
 ### End-user X-Ray plugin
