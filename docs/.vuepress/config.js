@@ -99,6 +99,8 @@ module.exports = {
     
     translationSource: 'docs.solo.cloudlinux.com',
     defaultURL: "/introduction/",
+    submitRequestURL: "https://www.cloudlinux.com/support-portal/",
+    hideHeading: true,
     redirectionMapping: urls,
     sidebarDepth: 2,
     logo: "/logo.svg",
@@ -129,7 +131,7 @@ module.exports = {
           },
           {
             text: "Contact support",
-            url: "https://cloudlinux.zendesk.com/hc/en-us/requests/new"
+            url: "https://www.cloudlinux.com/contact/"
           },
           { text: "Blog", url: "https://blog.cloudlinux.com/" }
         ],
@@ -143,6 +145,7 @@ module.exports = {
         // text for the edit-on-github link
         editLinkText: "Edit this page",
         tryFree: "Try Free",
+        submitRequest: "Contact Support",
         search: "Search",
         // config for Service Worker
         serviceWorker: {
