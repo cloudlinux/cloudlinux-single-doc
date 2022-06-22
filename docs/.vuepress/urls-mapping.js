@@ -2451,5 +2451,9 @@ module.exports = {
   "/cloudlinux_os_components/#lveredistimeout": "/deprecated/#lveredistimeout",
   "/ru/cloudlinux_os_components/#lveredistimeout": "/ru/deprecated/#lveredistimeout",
   "/cloudlinux_installation/#centos-with-eeasyapache-4": "/cloudlinux_installation/#centos-with-easyapache-4",
-  "/ru/cloudlinux_installation/#centos-with-eeasyapache-4": "/ru/cloudlinux_installation/#centos-with-easyapache-4"
+  "/ru/cloudlinux_installation/#centos-with-eeasyapache-4": "/ru/cloudlinux_installation/#centos-with-easyapache-4",
+  "/cloudlinux_installation/": "/introduction/",
+  "/lve_manager/": "/wpos-plugin/"
+  
+  
 };
