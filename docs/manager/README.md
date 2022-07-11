@@ -967,7 +967,7 @@ An administrator has the *CloudLinux Manager → AccelerateWP* tab to manage mod
 
 
 :::warning Warning!
-* This is a beta release. By default AccelerateWP suite is disabled in the current release. See [How to enable AccelerateWP](/cloudlinux-os-plus/#how-to-enable-acceleratewp).
+* This is a beta release. By default AccelerateWP suite is disabled in the current release. See [How to enable AccelerateWP](/manager/#how-to-enable-acceleratewp).
 * Please turn on the Object Cache module if you are sure! Turning it ON can really increase performance, but in a limited scope of cases!
 * All operations which destroy LVE will clean the Object Cache! Such operations include operations with CageFS, but do not include operations with  setting LVE limits.
 :::
@@ -982,7 +982,7 @@ If you'd like to try Smart Advice and AccelerateWP you should participate in the
 * cPanel
 * WordPress version 3.7 and higher
 * Required any (ea-, alt-) php 5.6+ version with loaded redis extension 
-* PHP handlers: [php-fpm](/cloudlinux-os-plus/#how-to-set-up-a-php-fpm-handler-for-the-domain) or php-lsapi (Apache)
+* PHP handlers: php-fpm or php-lsapi (Apache)
 * Apache only (LiteSpeed is not supported yet, coming soon)
 
 ### Administrator interface
@@ -1033,7 +1033,7 @@ The  AccelerateWP suite log files are located in:
 
 #### Configuring Redis extension for installed PHP versions
 
-Enabling the Object Cache module for a specific WordPress website requires a presence and loaded Redis extension for the PHP version chosen for the website. The Redis extension is configured for all installed and [supported](/cloudlinux-os-plus/#requirements) ea-php and alt-php versions automatically, right after system administrator allows WP Optimization suite for at least one end-user.
+Enabling the Object Cache module for a specific WordPress website requires a presence and loaded Redis extension for the PHP version chosen for the website. The Redis extension is configured for all installed and supported ea-php and alt-php versions automatically, right after system administrator allows WP Optimization suite for at least one end-user.
 
 Users will not be able to turn on the Object Cache module until Redis extension configuration is not completed. Corresponding incompatibility warning will be displayed in user`s plugin:
 
