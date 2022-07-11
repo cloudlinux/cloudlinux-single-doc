@@ -2538,5 +2538,9 @@ module.exports = {
   "/ru/x-ray/#i-started-a-tracing-task-and-made-requests-to-url-but-did-not-see-any-results-in-the-ui-what-should-i-do":"/ru/cloudlinux-os-plus/#i-started-a-tracing-task-and-made-requests-to-url-but-did-not-see-any-results-in-the-ui-what-should-i-do",
   "/ru/x-ray/#what-to-do-if-x-ray-is-not-found-in-the-phpinfo-page":"/ru/cloudlinux-os-plus/#what-to-do-if-x-ray-is-not-found-in-the-phpinfo-page",
   "/ru/x-ray/#i-use-litespeed-x-ray-is-enabled-and-it-is-shown-in-the-phpinfo-page-but-does-not-collect-data-when-sending-requests-to-a-site-what-to-do":"/ru/cloudlinux-os-plus/#i-use-litespeed-x-ray-is-enabled-and-it-is-shown-in-the-phpinfo-page-but-does-not-collect-data-when-sending-requests-to-a-site-what-to-do",
-  "/ru/x-ray/#what-is-the-proper-format-for-the-url":"/ru/cloudlinux-os-plus/#what-is-the-proper-format-for-the-url"
+  "/ru/x-ray/#what-is-the-proper-format-for-the-url":"/ru/cloudlinux-os-plus/#what-is-the-proper-format-for-the-url",
+  "/manager/#wp-optimization-suite":"/manager/#acceleratewp",
+  "/manager/#installation":"/manager/#how-to-enable-acceleratewp",
+  "/manager/#where-the-wp-optimization-suite-log-files-are-located":"/manager/#acceleratewp-suite-log-files",
+  "/manager/#wp-optimization-suite-for-end-users":"/manager/#acceleratewp-for-end-users"
 };
