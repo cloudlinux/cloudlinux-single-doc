@@ -30,6 +30,8 @@ In order to activate CloudLinux Manager features, follow the next steps:
 * Enter your CLN activation key if you already have it 
     ![](/images/cloudlinuxmanageractivation.png)
   
+    If you have IP-based license, please leave the _Enter Activation Key_ field empty and just click _Activate_.
+    
     You can read more about CloudLinux OS Solo and how to get the license [here](https://lp.cloudlinux.com/cloudlinux-os-solo)
 
 * Sign up and get 30-days trial license
