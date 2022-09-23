@@ -957,7 +957,7 @@ You can use any of them with a prefix `www.` and it is also correct.
 ## AccelerateWP
 
 ### Overview
-AccelerateWP carries suites of optimization features which can be enabled and automatically configured for the end-user's site.
+AccelerateWP carries a suite of optimization features which can be enabled and automatically configured for the end-user's site.
 
 There are AccelerateWP and AccelerateWP Premium feature suites.
 
@@ -966,7 +966,7 @@ This is a free suite which includes [AccelerateWP base feature](https://user-doc
 
 #### AccelerateWP Premium suite
 :::tip Note
-If you'd like to try AccelerateWP Premium suite, you should participate in the Beta tester program. To become a beta tester, please send your request at our Beta program page with the signup form [here](https://www.cloudlinux.com/wp-performance/).  Once you submit the request, we will send you a confirmation email with program details, terms of use, and installation instructions.
+If you'd like to try AccelerateWP Premium suite, you should participate in the Beta tester program. To become a beta tester, please send your request at our Beta program page with the signup form [here](https://www.cloudlinux.com/wp-performance/). Once you submit the request, we will send you a confirmation email with program details, terms of use, and installation instructions.
 :::
 
 This is a premium suite which includes [Object Caching feature](https://user-docs.solo.cloudlinux.com/wpos-plugin/#acceleratewp-premium-object-caching-feature).
