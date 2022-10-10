@@ -31,7 +31,7 @@ The number of servers is unlimited.
 
 ### What control panel can be used with CloudLinux OS Solo?
 
-For the current implementation, we recommend using cPanel Solo. Plesk and DirectAdmin are not supported.
+For the current implementation, we recommend using cPanel Solo and DirectAdmin. Plesk is not supported yet.
 
 ### How can I get support for my CloudLinux OS Solo servers?
 
