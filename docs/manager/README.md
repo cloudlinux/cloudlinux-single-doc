@@ -1176,5 +1176,66 @@ S.5....T.    /opt/cpanel/ea-php80/root/usr/lib64/php/modules/mbstring.so
 
 Please find the AccelerateWP Suite End-User documentation [here](https://user-docs.solo.cloudlinux.com/wpos-plugin).
 
+## PHP Selector
 
+* [Overview](/manager/#php-selector-overview)
+* [How to enable PHP Selector](/manager/#how-to-enable-php-selector)
+* [PHP Handlers](/manager/#php-handlers)
+* [Administrator interface](/manager/#selector-admin-interface)
 
+### Overview
+
+PHP Selector is a CloudLinux component which allows users to select  PHP versions and modules for  particular user’s domains. These PHP versions are provided by CloudLinux and  in the list there are newest as well as outdated versions.
+
+### How to enable PHP selector
+
+PHP selector is available for SOLO starting from these versions:
+
+```
+liblve-2.1-12
+ alt-python27-cllib@3.2.40-1 
+ lve-wrappers #0.7.8-1
+ lve-utils #6.4.6-1
+ cagefs #7.5.2-1
+ lvemanager #7.8.3-1
+```
+
+**To start working with CloudLinux PHP Selector:**
+
+1.  Update packages
+```
+yum update lvemanager lve-utils alt-python27-cllib  –enablerepo=cloudlinux-updates-testing
+```
+
+2. Open CloudLinux manager -> Selector tab -> Select PHP versions to install.
+
+![](/images/solo_php_selector_1.png)
+
+### PHP Handlers
+
+#### Compatibility matrix
+
+|**Web Server**|**PHP Selector**|
+|:-:|:-:|
+|Apache/suPHP|Yes|
+|Apache/FCGID|Yes|
+|Apache/CGI|Yes|
+|Apache/mod_lsapi|Yes|
+
+#### How to install Apache modules 
+
+You can use cPanel interface:
+
+![](/images/solo_php_selector_2.png)
+
+### Administrator interface
+
+In the Selector tab the diagnostic bar help to monitor configuration of PHP Selector
+
+![](/images/solo_php_selector_3.png)
+
+The Main Settings helps to monitor next settings
+
+![](/images/solo_php_selector_4.png)
+
+![](/images/solo_php_selector_5.png)
