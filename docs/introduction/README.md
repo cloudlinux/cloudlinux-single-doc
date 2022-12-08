@@ -22,7 +22,7 @@ Please refer to the [currently supported OS versions](/introduction/#cloudlinux-
 |:-:|:-:|
 |cPanel Solo|Yes|
 |cPanel regular with one user|Yes|
-|Plesk|No (coming soon)|
+|Plesk|Yes|
 |DirectAdmin|Yes|
 |Other panels|No|
 |No control panel|No|
