@@ -33,11 +33,11 @@ Please refer to the [currently supported OS versions](/introduction/#cloudlinux-
 |:-:|:-:|:-:|:-:|
 |Maximum amount of hosting accounts|1|unlimited|unlimited|
 |Limits (LVE Manager)|No|**Yes**|**Yes**|
-|Cage FS|No|**Yes**|**Yes**|
+|Cage FS|**Yes**|**Yes**|**Yes**|
 |MySQL Governor|No|**Yes**|**Yes**|
-|Selectors (PHP, Python, Node.js, Ruby)|No|**Yes**|**Yes**|
+|Selectors (PHP, Python, Node.js, Ruby)|**PHP Selector**|**Yes**|**Yes**|
 |HardenedPHP|No|**Yes**|**Yes**|
-|Apache mod_lsapi PRO|No|**Yes**|**Yes**|
+|Apache mod_lsapi PRO|**Yes**|**Yes**|**Yes**|
 |SecureLinks|No|**Yes**|**Yes**|
 |Website monitoring tool|**Yes**|**Yes**|**Yes**|
 |Website monitoring alerts|**Yes**|No|No|
