@@ -29,24 +29,30 @@ Please refer to the [currently supported OS versions](/introduction/#cloudlinux-
 
 #### CloudLinux OS editions comparison
 
-|**Features**|**CloudLinux OS Solo**|**CloudLinux OS Shared**|**CloudLinux OS Shared Pro**|
-|:-:|:-:|:-:|:-:|
-|Maximum amount of hosting accounts|1|unlimited|unlimited|
-|Limits (LVE Manager)|No|**Yes**|**Yes**|
-|Cage FS|**Yes**|**Yes**|**Yes**|
-|MySQL Governor|No|**Yes**|**Yes**|
-|Selectors (PHP, Python, Node.js, Ruby)|**PHP Selector**|**Yes**|**Yes**|
-|HardenedPHP|No|**Yes**|**Yes**|
-|Apache mod_lsapi PRO|**Yes**|**Yes**|**Yes**|
-|SecureLinks|No|**Yes**|**Yes**|
-|Website monitoring tool|**Yes**|**Yes**|**Yes**|
-|Website monitoring alerts|**Yes**|No|No|
-|Slow Site analyzer|**Yes**|**Yes**|**Yes**|
-|PHP X-Ray|**Yes**|No|**Yes**|
-|Centralized Monitoring|No|No|**Yes**|
-|WordPress Optimization Suite|**Yes**|No|**Yes**|
-|Support 24/7|**Yes**|**Yes**|**Yes**|
-|Priority support|No|No|**Yes**|
+
+|**Features**|**CloudLinux OS Solo**|**CloudLinux OS Admin**|**CloudLinux OS Shared**|**CloudLinux OS Shared Pro**|
+|:-:|:-:|:-:|:-:|:-:|
+|Maximum amount of hosting accounts|1|5|unlimited|unlimited|
+|Resource Limits (LVE)|No|**Yes***|**Yes**|**Yes**|
+|Cage FS|**Yes**|**Yes**|**Yes**|**Yes**|
+|MySQL Governor|No|No|**Yes**|**Yes**|
+|PHP Selector|**Yes**|**Yes**|**Yes**|**Yes**|
+|Other Selectors (Python, Node.js, Ruby)|No|No|**Yes****|**Yes****|
+|HardenedPHP|**Yes**|**Yes**|**Yes**|**Yes**|
+|Apache mod_lsapi PRO|**Yes**|**Yes**|**Yes**|**Yes**|
+|SecureLinks|No|**Yes**|**Yes**|**Yes**|
+|Website monitoring tool|**Yes**|**Yes**|**Yes**|**Yes**|
+|Website monitoring alerts|**Yes**|No|No|No|
+|Slow Site analyzer|**Yes**|**Yes**|**Yes**|**Yes**|
+|PHP X-Ray|**Yes**|**Yes**|No|**Yes**|
+|Centralized Monitoring|No|No|No|**Yes**|
+|AccelerateWP|**Yes**|**Yes**|No|**Yes**|
+|Support 24/7|**Yes**|**Yes**|**Yes**|**Yes**|
+
+\* Limits are disabled by default.
+
+\** Python/Node.js/Ruby Selectors are available only for cPanel, DirectAdmin servers, and servers with custom panel with own integration.
+
 
 ### Benefits
 
