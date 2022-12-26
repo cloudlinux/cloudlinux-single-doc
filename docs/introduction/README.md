@@ -30,24 +30,24 @@ Please refer to the [currently supported OS versions](/introduction/#cloudlinux-
 #### CloudLinux OS editions comparison
 
 
-|**Features**|**CloudLinux OS Solo**|**CloudLinux OS Admin**|**CloudLinux OS Shared**|**CloudLinux OS Shared Pro**|
+|**Features**|**<font color="#2c98f0">CloudLinux OS Solo</font>**|**CloudLinux OS Admin**|**CloudLinux OS Shared**|**CloudLinux OS Shared Pro**|
 |:-:|:-:|:-:|:-:|:-:|
-|Maximum amount of hosting accounts|1|5|unlimited|unlimited|
-|Resource Limits (LVE)|No|**Yes***|**Yes**|**Yes**|
-|Cage FS|**Yes**|**Yes**|**Yes**|**Yes**|
-|MySQL Governor|No|No|**Yes**|**Yes**|
-|PHP Selector|**Yes**|**Yes**|**Yes**|**Yes**|
-|Other Selectors (Python, Node.js, Ruby)|No|No|**Yes****|**Yes****|
-|HardenedPHP|**Yes**|**Yes**|**Yes**|**Yes**|
-|Apache mod_lsapi PRO|**Yes**|**Yes**|**Yes**|**Yes**|
-|SecureLinks|No|**Yes**|**Yes**|**Yes**|
-|Website monitoring tool|**Yes**|**Yes**|**Yes**|**Yes**|
-|Website monitoring alerts|**Yes**|No|No|No|
-|Slow Site analyzer|**Yes**|**Yes**|**Yes**|**Yes**|
-|PHP X-Ray|**Yes**|**Yes**|No|**Yes**|
-|Centralized Monitoring|No|No|No|**Yes**|
-|AccelerateWP|**Yes**|**Yes**|No|**Yes**|
-|Support 24/7|**Yes**|**Yes**|**Yes**|**Yes**|
+|Maximum amount of hosting accounts|<font color="#2c98f0">1</font>|5|unlimited|unlimited|
+|Resource Limits (LVE)|<font color="#2c98f0">No</font>|**Yes***|**Yes**|**Yes**|
+|Cage FS|**<font color="#2c98f0">Yes</font>**|**Yes**|**Yes**|**Yes**|
+|MySQL Governor|<font color="#2c98f0">No</font>|No|**Yes**|**Yes**|
+|PHP Selector|**<font color="#2c98f0">Yes</font>**|**Yes**|**Yes**|**Yes**|
+|Other Selectors (Python, Node.js, Ruby)|<font color="#2c98f0">No</font>|No|**Yes****|**Yes****|
+|HardenedPHP|**<font color="#2c98f0">Yes</font>**|**Yes**|**Yes**|**Yes**|
+|Apache mod_lsapi PRO|**<font color="#2c98f0">Yes</font>**|**Yes**|**Yes**|**Yes**|
+|SecureLinks|<font color="#2c98f0">No</font>|**Yes**|**Yes**|**Yes**|
+|Website monitoring tool|**<font color="#2c98f0">Yes</font>**|**Yes**|**Yes**|**Yes**|
+|Website monitoring alerts|**<font color="#2c98f0">Yes</font>**|No|No|No|
+|Slow Site analyzer|**<font color="#2c98f0">Yes</font>**|**Yes**|**Yes**|**Yes**|
+|PHP X-Ray|**<font color="#2c98f0">Yes</font>**|**Yes**|No|**Yes**|
+|Centralized Monitoring|<font color="#2c98f0">No</font>|No|No|**Yes**|
+|AccelerateWP|**<font color="#2c98f0">Yes</font>**|**Yes**|No|**Yes**|
+|Support 24/7|**<font color="#2c98f0">Yes</font>**|**Yes**|**Yes**|**Yes**|
 
 \* Limits are disabled by default.
 
