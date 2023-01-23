@@ -991,7 +991,8 @@ There are the following requirements to use AccelerateWP:
 ### Administrator interface
 
 #### Overview
-In the _CloudLinux Manager → AccelerateWP_ tab Administrator has the opportunity to provide end-user with suites of features, which on its turn could be activated by end-user. To speed up serving pages of WP sites, [activate free features for all WP sites on the server](/manager/#activate-free-acceleratewp-for-all-wp-sites-on-a-server).
+In the _CloudLinux Manager → AccelerateWP_ tab Administrator has the opportunity to provide end-user with suites of features, which on its turn could be activated by end-user. To provide best experience,
+[activate free features for all end-users](/cloudlinux-os-plus/#activate-free-acceleratewp-for-all-wp-sites-on-the-server).
 
 ![](/images/AWPAdminSolo.png)
 
@@ -999,10 +1000,10 @@ By toggling the `Enable AccelerateWP` administrator provides end-user with Accel
 Once the feature suite is enabled by administrator, end-user will see an AccelerateWP tab in their cPanel interface and be able to activate the optimization feature.
 
 
-### Activate free AccelerateWP for all WP sites on a server
+### Activate free AccelerateWP for all WP sites on the server
 Use the `cloudlinux-awp-admin enable-feature` CLI command to
-ensure the best performance for each WP site on the server. CLI command
-scans the server for all WP sites and activates the AccelerateWP
+ensure the best performance for every end-user. CLI command
+scans a server for all WP sites and activates the AccelerateWP
 feature suite. CLI command skips activation for WP sites with
 page caching or feature incompatibilities.
 
@@ -1011,7 +1012,7 @@ on those WP sites where it is possible:
 ```
 cloudlinux-awp-admin enable-feature --all
 ```
-The output will state the number of users for the scan (one for the solo license) and the
+The output will state the number of users for the scan and the
 progress state of the process.
 
 Check activation status:
@@ -1021,7 +1022,7 @@ cloudlinux-awp-admin enable-feature --status
 The output will be either:
 * Activation is still in progress,
 * Activation is done. The message will state how many users
-were initially for the scan, the number of WP sites with
+were initially for the scan, a number of WP sites with
 successfully activated suite, and the total number of WP sites
 scanned.
 
