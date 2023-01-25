@@ -37,7 +37,7 @@ Please refer to the [currently supported OS versions](/introduction/#cloudlinux-
 |Cage FS|**<font color="#2c98f0">Yes</font>**|**Yes**|**Yes**|**Yes**|
 |MySQL Governor|<font color="#2c98f0">No</font>|No|**Yes**|**Yes**|
 |PHP Selector|**<font color="#2c98f0">Yes</font>**|**Yes**|**Yes**|**Yes**|
-|Other Selectors (Python, Node.js, Ruby)|<font color="#2c98f0">No</font>|No|**Yes****|**Yes****|
+|Other Selectors (Python, Node.js, Ruby)|<font color="#2c98f0">No</font>|**Yes****|**Yes****|**Yes****|
 |HardenedPHP|**<font color="#2c98f0">Yes</font>**|**Yes**|**Yes**|**Yes**|
 |Apache mod_lsapi PRO|**<font color="#2c98f0">Yes</font>**|**Yes**|**Yes**|**Yes**|
 |SecureLinks|<font color="#2c98f0">No</font>|**Yes**|**Yes**|**Yes**|
