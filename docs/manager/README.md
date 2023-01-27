@@ -981,7 +981,7 @@ This feature is free of charge only during the beta testing period. Afterwards i
 **Premium suite limitations**
 
 * the websites must be served with Apache web server;
-* the websites must use PHP-FPM handler.
+* the websites must use either php-fpm or lsapi handlers.
 
 ### Limitations
 There are the following requirements to use AccelerateWP:
