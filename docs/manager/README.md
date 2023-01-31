@@ -1231,7 +1231,7 @@ liblve-2.1-12
 
 1.  Update packages
 ```
-yum update lvemanager lve-utils alt-python27-cllib  –enablerepo=cloudlinux-updates-testing
+yum update lvemanager lve-utils alt-python27-cllib
 ```
 
 2. Open CloudLinux manager -> Selector tab -> Select PHP versions to install.
