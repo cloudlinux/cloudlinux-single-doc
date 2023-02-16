@@ -1022,9 +1022,10 @@ There are the following requirements to use AccelerateWP:
 ### Administrator interface
 
 #### Overview
-In the _CloudLinux Manager → AccelerateWP_ tab an administrator has the opportunity to provide end-users with a suite of features, which on its turn could be activated by end-users.
-To provide best experience,
-[activate free features for all end-users](/cloudlinux-os-plus/#activate-free-acceleratewp-for-all-wp-sites-on-the-server).
+
+In the _CloudLinux Manager → AccelerateWP_ tab Administrator has the opportunity to provide end-user with suites of features, which on its turn could be activated by end-user. To provide best experience,
+[activate free features for all WordPress sites](/#activate-free-acceleratewp-for-all-wp-sites-on-the-server).
+
 
 ![](/images/AWPAdminSolo.png)
 
@@ -1072,19 +1073,20 @@ You may use the following filters to browse AccelerateWP statistics slices.
 
 
 
-### Activate free AccelerateWP for all WP sites on the server
+### Activate free AccelerateWP for all WordPress sites on the server
 Use the `cloudlinux-awp-admin enable-feature` CLI command to
-ensure the best performance for every end-user. CLI command
+ensure the best performance for every WordPress site. CLI command
 scans a server for all WP sites and activates the AccelerateWP
-feature suite. CLI command skips activation for WP sites with
+feature suite. It can take up to 2 minutes for a single site.
+CLI command skips activation for WordPress sites with
 page caching or feature incompatibilities.
 
 Scan the server in background mode and activate AccelerateWP
-on those WP sites where it is possible:
+on those WordPress sites where it is possible:
 ```
 cloudlinux-awp-admin enable-feature --all
 ```
-The output will state the number of users for the scan and the
+The output will denote the
 progress state of the process.
 
 Check activation status:
@@ -1094,8 +1096,8 @@ cloudlinux-awp-admin enable-feature --status
 The output will be either:
 * Activation is still in progress,
 * Activation is done. The message will state how many users
-were initially for the scan, a number of WP sites with
-successfully activated suite, and the total number of WP sites
+were initially for the scan, a number of WordPress sites with
+successfully activated suite, and the total number of WordPress sites
 scanned.
 
 ### Disable AccelerateWP for a particular user
