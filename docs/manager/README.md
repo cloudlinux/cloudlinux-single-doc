@@ -691,6 +691,10 @@ A: For the generating of advice, it is necessary to run X-Ray tracing tasks, the
 
 #### Useful Smart Advice CLI commands
 
+:::warning Warning!
+This is an experimental feature. The backwards compatibility is not guaranteed.
+:::
+
 To obtain the full list of advice generated for your server use the following CLI command:
 
 ```
@@ -1246,6 +1250,10 @@ cloudlinux-awp-admin set-suite --suite=accelerate_wp,accelerate_wp_premium --dis
 Use CLI commands to check AccelerateWP features status.
 
 If you are also interested in Smart Advice CLI command, they could be found [here](/manager/#useful-smart-advice-cli-commands).
+
+:::warning Warning!
+This is an experimental feature. The backwards compatibility is not guaranteed.
+:::
 
 #### AccelerateWP suites statistics
 
