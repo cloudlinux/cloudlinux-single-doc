@@ -182,8 +182,11 @@ Next, [activate your installation](/manager/#activation) in order to get updates
 
 ## Converting existing servers
 
-:::warning
-Only CenOS 8/AlmaLinux 8 can be converted to the CloudLinux OS Solo 8. 
+:::tip Supported OS for conversion
+* CentOS 8
+* AlmaLinux OS 8
+* RockyLinux (installation only, no uninstall option)
+* **CentOS Stream versions aren’t supported**
 :::
 
 Sometimes it is required to convert already existing servers with `CentOS` or `AlmaLinux` and make them `CloudLinux OS Solo`.
